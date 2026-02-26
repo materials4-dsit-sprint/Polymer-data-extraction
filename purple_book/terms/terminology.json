@@ -1,0 +1,707 @@
+[
+  {
+    "term": "macromolecule",
+    "definition": "Molecule of high relative molecular mass, the structure of which essentially comprises the multiple repetition of units derived, actually or conceptually, from molecules of low relative molecular mass. Note 1: In many cases, especially for synthetic polymers , a molecule can be regarded as having a high relative molecular mass if the addition or removal of one or a few of the units has a negligible effect on the molecular properties. This statement fails in the case of certain properties of macromolecules which may be critically dependent on fine details of the molecular structure, e.g., the enzymatic properties of polypeptides. Originally prepared by a working group consisting of A. D. Jenkins (UK), P. Kratochvíl (Czech Republic), , 2287-2311 R. F. T. Stepto (UK), and U. W. Suter (Switzerland). Reprinted from Pure Appl. Chem. 68 (1996). Note 2: If a part or the whole of the molecule has a high relative molecular mass and essentially comprises the multiple repetition of units derived, actually or conceptually, from molecules of low relative molecular mass, it may be described as either macromolecular or polymeric, or by polymer used adjectivally. Note 3: In most cases, the polymer can actually be made by direct polymerization of its parent monomer but in other cases, e.g., poly(vinyl alcohol), the description 'conceptual' denotes that an indirect route is used because the nominal monomer does not exist.",
+    "source": "section:1.1"
+  },
+  {
+    "term": "polymer molecule",
+    "definition": "Molecule of high relative molecular mass, the structure of which essentially comprises the multiple repetition of units derived, actually or conceptually, from molecules of low relative molecular mass. Note 1: In many cases, especially for synthetic polymers , a molecule can be regarded as having a high relative molecular mass if the addition or removal of one or a few of the units has a negligible effect on the molecular properties. This statement fails in the case of certain properties of macromolecules which may be critically dependent on fine details of the molecular structure, e.g., the enzymatic properties of polypeptides. Originally prepared by a working group consisting of A. D. Jenkins (UK), P. Kratochvíl (Czech Republic), , 2287-2311 R. F. T. Stepto (UK), and U. W. Suter (Switzerland). Reprinted from Pure Appl. Chem. 68 (1996). Note 2: If a part or the whole of the molecule has a high relative molecular mass and essentially comprises the multiple repetition of units derived, actually or conceptually, from molecules of low relative molecular mass, it may be described as either macromolecular or polymeric, or by polymer used adjectivally. Note 3: In most cases, the polymer can actually be made by direct polymerization of its parent monomer but in other cases, e.g., poly(vinyl alcohol), the description 'conceptual' denotes that an indirect route is used because the nominal monomer does not exist.",
+    "source": "section:1.1"
+  },
+  {
+    "term": "oligomer molecule",
+    "definition": "Molecule of intermediate relative molecular mass, the structure of which essentially comprises a small plurality of units derived, actually or conceptually, from molecules of lower relative molecular mass. Note 1: A molecule is regarded as having an intermediate relative molecular mass if it has properties which do vary significantly with the removal of one or a few of the units. Note 2: If a part or the whole of the molecule has an intermediate relative molecular mass and essentially comprises a small plurality of units derived, actually or conceptually, from molecules of lower relative molecular mass, it may be described as oligomeric, or by oligomer used adjectivally.",
+    "source": "section:1.2"
+  },
+  {
+    "term": "monomer molecule",
+    "definition": "Molecule which can undergo polymerization , thereby contributing constitutional units to the essential structure of a macromolecule .",
+    "source": "section:1.3"
+  },
+  {
+    "term": "regular macromolecule",
+    "definition": "Macromolecule , the structure of which essentially comprises the repetition of a single constitutional unit with all units connected identically with respect to directional sense.",
+    "source": "section:1.4"
+  },
+  {
+    "term": "irregular macromolecule",
+    "definition": "Macromolecule , the structure of which essentially comprises the repetition of more than one type of constitutional unit , or a macromolecule the structure of which comprises constitutional units not all connected identically with respect to directional sense.",
+    "source": "section:1.5"
+  },
+  {
+    "term": "linear macromolecule",
+    "definition": "Macromolecule , the structure of which essentially comprises the multiple repetition in linear sequence of units derived, actually or conceptually, from molecules of low relative molecular mass.",
+    "source": "section:1.6"
+  },
+  {
+    "term": "regular oligomer molecule",
+    "definition": "Oligomer molecule , the structure of which essentially comprises the repetition of a single constitutional unit with all units connected identically with respect to directional sense.",
+    "source": "section:1.7"
+  },
+  {
+    "term": "monomeric unit",
+    "definition": "Largest constitutional unit contributed by a single monomer molecule to the structure of a macromolecule or oligomer molecule . Note: The largest constitutional unit contributed by a single monomer molecule to the structure of a macromolecule or oligomer molecule may be described as either monomeric, or by monomer used adjectivally.",
+    "source": "section:1.8"
+  },
+  {
+    "term": "monomer unit",
+    "definition": "Largest constitutional unit contributed by a single monomer molecule to the structure of a macromolecule or oligomer molecule . Note: The largest constitutional unit contributed by a single monomer molecule to the structure of a macromolecule or oligomer molecule may be described as either monomeric, or by monomer used adjectivally.",
+    "source": "section:1.8"
+  },
+  {
+    "term": "mer",
+    "definition": "Largest constitutional unit contributed by a single monomer molecule to the structure of a macromolecule or oligomer molecule . Note: The largest constitutional unit contributed by a single monomer molecule to the structure of a macromolecule or oligomer molecule may be described as either monomeric, or by monomer used adjectivally.",
+    "source": "section:1.8"
+  },
+  {
+    "term": "macromonomer molecule",
+    "definition": "Macromolecule or oligomer molecule that has one end-group which enables it to act as a monomer molecule , contributing only a single monomeric unit to a chain of the final macromolecule .",
+    "source": "section:1.9"
+  },
+  {
+    "term": "macroradical",
+    "definition": "Macromolecule which is also a radical.",
+    "source": "section:1.10"
+  },
+  {
+    "term": "prepolymer molecule",
+    "definition": "Macromolecule or oligomer molecule capable of entering, through reactive groups, into further polymerization , thereby contributing more than one constitutional unit to at least one type of chain of the final macromolecules . Note: A prepolymer molecule capable of entering into further polymerization through reactive end-groups , often deliberately introduced, is known as a telechelic molecule.",
+    "source": "section:1.11"
+  },
+  {
+    "term": "macromonomeric unit",
+    "definition": "Largest constitutional unit contributed by a single macromonomer molecule to the structure of a macromolecule .",
+    "source": "section:1.12"
+  },
+  {
+    "term": "macromonomer unit",
+    "definition": "Largest constitutional unit contributed by a single macromonomer molecule to the structure of a macromolecule .",
+    "source": "section:1.12"
+  },
+  {
+    "term": "degree of polymerization",
+    "definition": "Number of monomeric units in a macromolecule an oligomer molecule , a block , or a chain .",
+    "source": "section:1.13"
+  },
+  {
+    "term": "constitutional unit",
+    "definition": "Atom or group of atoms (with pendant atoms or groups, if any) comprising a part of the essential structure of a macromolecule , an oligomer molecule , a block , or a chain .",
+    "source": "section:1.14"
+  },
+  {
+    "term": "constitutional repeating unit (CRU)",
+    "definition": "Smallest constitutional unit , the repetition of which constitutes a regular macromolecule , a regular oligomer molecule , a regular block , or a regular chain .",
+    "source": "section:1.15"
+  },
+  {
+    "term": "configurational unit",
+    "definition": "Constitutional unit having at least one site of defined stereoisomerism.",
+    "source": "section:1.16"
+  },
+  {
+    "term": "configurational base unit",
+    "definition": "Constitutional repeating unit in a regular macromolecule , a regular oligomer molecule , a regular block , or a regular chain , the configuration of which is defined at least at one site of stereoisomerism in the main chain .",
+    "source": "section:1.17"
+  },
+  {
+    "term": "configurational repeating unit",
+    "definition": "Smallest set of successive configurational base units that prescribes configurational repetition at one or more sites of stereoisomerism in the main chain of a regular macromolecule , a regular oligomer molecule , a regular block , or a regular chain .",
+    "source": "section:1.18"
+  },
+  {
+    "term": "stereorepeating unit",
+    "definition": "Configurational repeating unit having defined configurations at all sites of stereoisomerism in the main chain of a regular macromolecule , a regular oligomer molecule , a regular block , or a regular chain .",
+    "source": "section:1.19"
+  },
+  {
+    "term": "tacticity",
+    "definition": "Orderliness of the succession of configurational repeating units in the main chain of a regular macromolecule , a regular oligomer molecule , a regular block , or a regular chain .",
+    "source": "section:1.20"
+  },
+  {
+    "term": "tactic macromolecule",
+    "definition": "Regular macromolecule in which essentially all the configurational (repeating) units are identical.",
+    "source": "section:1.21"
+  },
+  {
+    "term": "stereoregular macromolecule",
+    "definition": "Regular macromolecule essentially comprising only one species of stereorepeating unit .",
+    "source": "section:1.22"
+  },
+  {
+    "term": "isotactic macromolecule",
+    "definition": "Tactic macromolecule , essentially comprising only one species of configurational base unit , which has chiral or prochiral atoms in the main chain in a unique arrangement with respect to its adjacent constitutional units . Note: In an isotactic macromolecule , the configurational repeating unit is identical with the configurational base unit .",
+    "source": "section:1.23"
+  },
+  {
+    "term": "syndiotactic macromolecule",
+    "definition": "Tactic macromolecule , essentially comprising alternating enantiomeric configurational base units , which have chiral or prochiral atoms in the main chain in a unique arrangement with respect to their adjacent constitutional units . Note: In a syndiotactic macromolecule , the configurational repeating unit consists of two configurational base units that are enantiomeric.",
+    "source": "section:1.24"
+  },
+  {
+    "term": "atactic macromolecule",
+    "definition": "Regular macromolecule that has an equal number of the possible configurational base units in a random sequence distribution.",
+    "source": "section:1.25"
+  },
+  {
+    "term": "block macromolecule",
+    "definition": "Macromolecule which is composed of blocks in linear sequence.",
+    "source": "section:1.26"
+  },
+  {
+    "term": "junction unit",
+    "definition": "Non-repeating atom or non-repeating group of atoms between blocks in a block macromolecule .",
+    "source": "section:1.27"
+  },
+  {
+    "term": "graft macromolecule",
+    "definition": "Macromolecule with one or more species of block connected to the main chain as sidechains , these sidechains having constitutional or configurational features that differ from those in the main chain .",
+    "source": "section:1.28"
+  },
+  {
+    "term": "stereoblock macromolecule",
+    "definition": "Block macromolecule composed of stereoregular, and possibly some non-stereoregular, blocks .",
+    "source": "section:1.29"
+  },
+  {
+    "term": "chain",
+    "definition": "Whole or part of a macromolecule , an oligomer molecule , or a block , comprising a linear or branched sequence of constitutional units between two boundary constitutional units , each of which may be either an end-group , a branch point , or an otherwise-designated characteristic feature of the macromolecule . Note 1: Except in linear single-strand macromolecules , the definition of a chain may be somewhat arbitrary. Note 2: A cyclic macromolecule has no end-groups but may nevertheless be regarded as a chain . Note 3: Any number of branch points may be present between the boundary units. Note 4: Where appropriate, definitions relating to macromolecule may also be applied to chain .",
+    "source": "section:1.30"
+  },
+  {
+    "term": "subchain",
+    "definition": "Arbitrarily chosen contiguous sequence of constitutional units , in a chain . Note: The term subchain may be used to define designated subsets of the constitutional units in a chain .",
+    "source": "section:1.31"
+  },
+  {
+    "term": "linear chain",
+    "definition": "Chain with no branch points between the boundary units.",
+    "source": "section:1.32"
+  },
+  {
+    "term": "branched chain",
+    "definition": "Chain with at least one branch point between the boundary units.",
+    "source": "section:1.33"
+  },
+  {
+    "term": "main chain backbone",
+    "definition": "That linear chain to which all other chains , long or short or both, may be regarded as being pendant. Note: Where two or more chains could equally be considered to be the main chain , that one is selected which leads to the simplest representation of the molecule.",
+    "source": "section:1.34"
+  },
+  {
+    "term": "end-group",
+    "definition": "Constitutional unit that is an extremity of a macromolecule or oligomer molecule . Note: An end-group is attached to only one constitutional unit of a macromolecule or oligomer molecule .",
+    "source": "section:1.35"
+  },
+  {
+    "term": "long chain",
+    "definition": "Chain of high relative molecular mass. Note: See Note 1 to Definition 1.1.",
+    "source": "section:1.36"
+  },
+  {
+    "term": "short chain",
+    "definition": "Chain of low relative molecular mass. Note: See Note 1 to Definition 1.2.",
+    "source": "section:1.37"
+  },
+  {
+    "term": "single-strand chain",
+    "definition": "Chain that comprises constitutional units connected in such a way that adjacent constitutional units are joined to each other through two atoms, one on each constitutional unit .",
+    "source": "section:1.38"
+  },
+  {
+    "term": "single-strand macromolecule",
+    "definition": "Macromolecule that comprises constitutional units connected in such a way that adjacent constitutional units are joined to each other through two atoms, one on each constitutional unit .",
+    "source": "section:1.39"
+  },
+  {
+    "term": "double-strand chain",
+    "definition": "Chain consisting of an uninterrupted sequence of rings with adjacent rings having one atom in common (spiro chain) or two or more atoms in common (ladder chain).",
+    "source": "section:1.40"
+  },
+  {
+    "term": "double-strand macromolecule",
+    "definition": "Macromolecule consisting of an uninterrupted sequence of rings with adjacent rings having one atom in common (spiro macromolecule) or two or more atoms in common (ladder macromolecule).",
+    "source": "section:1.41"
+  },
+  {
+    "term": "spiro chain",
+    "definition": "Double-strand chain consisting of an uninterrupted sequence of rings, with adjacent rings having only one atom in common. Note: A spiro chain is a double-strand chain with adjacent constitutional units joined to each other through three atoms, two on one side and one on the other side of each constitutional unit .",
+    "source": "section:1.42"
+  },
+  {
+    "term": "spiro macromolecule",
+    "definition": "Double-strand macromolecule consisting of an uninterrupted sequence of rings, with adjacent rings having only one atom in common. Note: A spiro macromolecule is a double-strand macromolecule with adjacent constitutional units joined to each other through three atoms, two on one side and one on the other side of each constitutional unit .",
+    "source": "section:1.43"
+  },
+  {
+    "term": "ladder chain",
+    "definition": "Double-strand chain consisting of an uninterrupted sequence of rings, with adjacent rings having two or more atoms in common. Note: A ladder chain is a double-strand chain with adjacent constitutional units joined to each other through four atoms, two on one side and two on the other side of each constitutional unit .",
+    "source": "section:1.44"
+  },
+  {
+    "term": "ladder macromolecule",
+    "definition": "Double-strand macromolecule consisting of an uninterrupted sequence of rings, with adjacent rings having two or more atoms in common. Note: A ladder macromolecule is a double-strand macromolecule with adjacent constitutional units joined to each other through four atoms, two on one side and two on the other side of each constitutional unit .",
+    "source": "section:1.45"
+  },
+  {
+    "term": "multi-strand chain",
+    "definition": "Chain that comprises constitutional units connected in such a way that adjacent constitutional units are joined to each other through more than four atoms, more than two on at least one side of each constitutional unit . Note: A chain that comprises constitutional units joined to each other through n atoms on at least one side of each constitutional unit is termed an n -strand chain , e.g., three-strand chain . If an uncertainty exists in defining n , the highest possible number is selected.",
+    "source": "section:1.46"
+  },
+  {
+    "term": "multi-strand macromolecule",
+    "definition": "Macromolecule that comprises constitutional units connected in such a way that adjacent constitutional units are joined to each other through more than four atoms, more than two on at least one side of each constitutional unit . Note: A macromolecule that comprises constitutional units joined to each other through n atoms on at least one side of each constitutional unit is termed an n -strand macromolecule , e.g., three-strand macromolecule . If an ambiguity exists in defining n , the highest possible number is selected.",
+    "source": "section:1.47"
+  },
+  {
+    "term": "skeletal structure",
+    "definition": "Sequence of atoms in the constitutional unit(s) of a macromolecule , an oligomer molecule , a block , or a chain , which defines the essential topological representation.",
+    "source": "section:1.48"
+  },
+  {
+    "term": "skeletal atom",
+    "definition": "Atom in a skeletal structure .",
+    "source": "section:1.49"
+  },
+  {
+    "term": "skeletal bond",
+    "definition": "Bond connecting two skeletal atoms .",
+    "source": "section:1.50"
+  },
+  {
+    "term": "star macromolecule",
+    "definition": "Macromolecule containing a single branch point from which linear chains (arms) emanate. Note 1: A star macromolecule with n linear chains (arms) attached to the branch point is termed an n-star macromolecule, e.g., five-star macromolecule. Note 2: If the arms of a star macromolecule are identical with respect to constitution and degree of polymerization , the macromolecule is termed a regular star macromolecule. Note 3: If different arms of a star macromolecule are composed of different monomeric units , the macromolecule is termed a variegated star macromolecule.",
+    "source": "section:1.51"
+  },
+  {
+    "term": "comb macromolecule",
+    "definition": "Macromolecule comprising a main chain with multiple trifunctional branch points from each of which a linear sidechain emanates. Note 1: If the sub chains between the branch points of the main chain and the terminal sub chains of the main chain are identical with respect to constitution and degree of polymerization , and the sidechains are identical with respect to constitution and degree of polymerization , the macromolecule is termed a regular comb macromolecule. Note 2: If at least some of the branch points are of functionality greater than three, the macromolecule may be termed a brush macromolecule .",
+    "source": "section:1.52"
+  },
+  {
+    "term": "branch side-chain pendant chain",
+    "definition": "Oligomeric or polymeric offshoot from a macromolecular chain . Note 1: An oligomeric branch may be termed a short-chain branch. Note 2: A polymeric branch may be termed a long-chain branch.",
+    "source": "section:1.53"
+  },
+  {
+    "term": "branch point",
+    "definition": "Point on a chain at which a branch is attached. Note 1: A branch point from which f linear chains emanate may be termed an f -functional branch point , e.g., five-functional branch point . Alternatively, the terms trifunctional, tetrafunctional, pentafunctional, etc. may be used, e.g., pentafunctional branch point . Note 2: A branch point in a network may be termed a junction point.",
+    "source": "section:1.54"
+  },
+  {
+    "term": "branch unit",
+    "definition": "Constitutional unit containing a branch point . Note: A branch unit from which f linear chains emanate may be termed an f -functional branch unit, e.g., five-functional branch unit. Alternatively, the terms trifunctional, tetrafunctional, pentafunctional, etc. may be used, e.g., pentafunctional branch unit.",
+    "source": "section:1.55"
+  },
+  {
+    "term": "pendant group",
+    "definition": "Offshoot, neither oligomeric nor polymeric, from a chain .",
+    "source": "section:1.56"
+  },
+  {
+    "term": "side-group",
+    "definition": "Offshoot, neither oligomeric nor polymeric, from a chain .",
+    "source": "section:1.56"
+  },
+  {
+    "term": "macrocycle",
+    "definition": "Cyclic macromolecule or a macromolecular cyclic portion of a macromolecule . Note 1: See Note 2 to Definition 1.30. Note 2: In the literature, the term macrocycle is sometimes used for molecules of low relative molecular mass that would not be considered macromolecules as specified in Definition 1.1.",
+    "source": "section:1.57"
+  },
+  {
+    "term": "network",
+    "definition": "Highly ramified macromolecule in which essentially each constitutional unit is connected to each other constitutional unit and to the macroscopic phase boundary by many permanent paths through the macromolecule , the number of such paths increasing with the average number of intervening bonds; the paths must on the average be co-extensive with the macromolecule . Note 1: Usually, and in all systems that exhibit rubber elasticity, the number of distinct paths is very high, but, in most cases, some constitutional units exist which are connected by a single path only. Note 2: If the permanent paths through the structure of a network are all formed by covalent bonds, the term covalent network may be used. Note 3: The term physical network may be used if the permanent paths through the structure of a network are not all formed by covalent bonds but, at least in part, by physical interactions, such that removal of the interactions leaves individual macromolecules or a macromolecule that is not a network.",
+    "source": "section:1.58"
+  },
+  {
+    "term": "crosslink",
+    "definition": "Small region in a macromolecule from which at least four chains emanate, and formed by reactions involving sites or groups on existing macromolecules or by interactions between existing macromolecules . Note 1: The small region may be an atom, a group of atoms, or a number of branch points connected by bonds, groups of atoms, or oligomeric chains . Note 2: In the majority of cases, a crosslink is a covalent structure but the term is also used to describe sites of weaker chemical interactions, portions of crystallites, and even physical interactions and entanglements.",
+    "source": "section:1.59"
+  },
+  {
+    "term": "micronetwork",
+    "definition": "Polymer network that has dimensions of the order 1 nm to 1 µ m.",
+    "source": "section:1.60"
+  },
+  {
+    "term": "loose end",
+    "definition": "Polymer chain within a network which is connected by a junction point at one end only.",
+    "source": "section:1.61"
+  },
+  {
+    "term": "block",
+    "definition": "Portion of a macromolecule , comprising many constitutional units , that has at least one constitutional or configurational feature which is not present in the adjacent portions. Note: Where appropriate, definitions relating to macromolecule may also be applied to block .",
+    "source": "section:1.62"
+  },
+  {
+    "term": "constitutional sequence",
+    "definition": "Whole or part of a chain comprising one or more species of constitutional unit(s) in defined sequence. Note: Constitutional sequences comprising two constitutional units are termed diads, those comprising three constitutional units triads, and so on. In order of increasing sequence lengths they are called tetrads, pentads, hexads, heptads, octads, nonads, decads, undecads, etc.",
+    "source": "section:1.63"
+  },
+  {
+    "term": "configurational sequence",
+    "definition": "Whole or part of a chain comprising one or more species of configurational unit(s) in defined sequence. Note: Configurational sequences comprising two configurational units are termed diads, those with three such configurational units triads, and so on. In order of increasing sequence lengths they are called tetrads, pentads, hexads, heptads, octads, nonads, decads, undecads, etc.",
+    "source": "section:1.64"
+  },
+  {
+    "term": "polyelectrolyte molecule",
+    "definition": "Macromolecule in which a substantial portion of the constitutional units has ionizable or ionic groups, or both.",
+    "source": "section:1.65"
+  },
+  {
+    "term": "ionomer molecule",
+    "definition": "Macromolecule in which a small but significant proportion of the constitutional units has ionizable or ionic groups, or both. Note: Some protein molecules may be classified as ionomer molecules",
+    "source": "section:1.66"
+  },
+  {
+    "term": "monomer",
+    "definition": "Substance composed of monomer molecules .",
+    "source": "section:2.1"
+  },
+  {
+    "term": "polymer",
+    "definition": "Substance composed of macromolecules .",
+    "source": "section:2.2"
+  },
+  {
+    "term": "oligomer",
+    "definition": "Substance composed of oligomer molecules . Note: An oligomer obtained by telomerization is often termed a telomer.",
+    "source": "section:2.3"
+  },
+  {
+    "term": "homopolymer",
+    "definition": "Polymer derived from one species of (real, implicit or hypothetical) monomer . Note 1: Many polymer s are made by the mutual reaction of complementary monomers . These monomers can readily be visualized as reacting to give an 'implicit monomer' or 'hypothetical monomer', the homo polymerization of which would give the actual product, which can be regarded as a homopolymer. Well-known examples are poly(ethylene terephthalate) and poly( N , N '-hexane-1,6-diyladipamide). Note 2: Some polymer s are obtained by the chemical modification of other polymer s such that the structure of the macromolecules that constitute the resulting polymer can be thought of as having been formed by the homo polymerization of a hypothetical monomer . These polymer s can be regarded as homopolymers. A well-known example is poly(vinyl alcohol).",
+    "source": "section:2.4"
+  },
+  {
+    "term": "copolymer",
+    "definition": "Polymer derived from more than one species of monomer . Note: Copolymers that are obtained by copolymerization of two monomer species are sometimes termed bipolymers, those obtained from three monomers terpolymers, those obtained from four monomers quaterpolymers, etc.",
+    "source": "section:2.5"
+  },
+  {
+    "term": "pseudo-copolymer",
+    "definition": "Irregular polymer , the molecules of which are derived from only one species of monomer but which display a variety of structural features more appropriate for description in copolymer terms. Note: Where appropriate, adjectives specifying the types of copolymer may be applied to pseudo-copolymer . The term statistical pseudocopolymer , for instance, may be used to describe an irregular polymer in the molecules of which the sequential distribution of configurational units obeys known statistical laws.",
+    "source": "section:2.6"
+  },
+  {
+    "term": "co-oligomer",
+    "definition": "Oligomer derived from more than one species of monomer .",
+    "source": "section:2.7"
+  },
+  {
+    "term": "pseudo-co-oligomer",
+    "definition": "Irregular oligomer , the molecules of which are derived from only one species of monomer but which display a variety of structural features more appropriate for description in cooligomer terms.",
+    "source": "section:2.8"
+  },
+  {
+    "term": "statistical copolymer",
+    "definition": "Copolymer consisting of macromolecules in which the sequential distribution of the monomeric units obeys known statistical laws. Note: An example of a statistical copolymer is one consisting of macromolecules in which the sequential distribution of monomeric units follows Markovian statistics.",
+    "source": "section:2.9"
+  },
+  {
+    "term": "random copolymer",
+    "definition": "Copolymer consisting of macromolecules in which the probability of finding a given monomeric unit at any given site in the chain is independent of the nature of the adjacent units. Note: In a random copolymer , the sequence distribution of monomeric units follows Bernoullian statistics.",
+    "source": "section:2.10"
+  },
+  {
+    "term": "alternating copolymer",
+    "definition": "Copolymer consisting of macromolecules comprising two species of monomeric units in alternating sequence. Note: An alternating copolymer may be considered as a homopolymer derived from an implicit or hypothetical monomer ; see Note 1 to Definition 2.4.",
+    "source": "section:2.11"
+  },
+  {
+    "term": "periodic copolymer",
+    "definition": "Copolymer consisting of macromolecules comprising more than two species of monomeric units in regular sequence.",
+    "source": "section:2.12"
+  },
+  {
+    "term": "uniform polymer",
+    "definition": "Polymer composed of molecules uniform with respect to relative molecular mass and constitution. Note 1: A polymer comprising a mixture of linear and branched chains , all of uniform relative molecular mass, is not uniform. Note 2: A copolymer comprising linear molecules of uniform relative molecular mass and uniform elemental composition but different sequential arrangements of the various types of monomeric units , is not uniform (e.g., a copolymer comprising molecules with a random arrangement as well as a block arrangement of monomeric units ). Note 3: A polymer uniform with respect only to either relative molecular mass or constitution may be termed uniform, provided a suitable qualifier is used (e.g., 'a polymer uniform with respect to relative molecular mass'). Note 4: The adjectives monodisperse and polydisperse are deeply rooted in the literature, despite the former being non-descriptive and self-contradictory. They are in common usage and it is recognized that they will continue to be used for some time; nevertheless, more satisfactory terms are clearly desirable. After an extensive search for possible replacements, the terms uniform and non-uniform have been selected and they are now the preferred adjectives.",
+    "source": "section:2.13"
+  },
+  {
+    "term": "monodisperse polymer",
+    "definition": "Polymer composed of molecules uniform with respect to relative molecular mass and constitution. Note 1: A polymer comprising a mixture of linear and branched chains , all of uniform relative molecular mass, is not uniform. Note 2: A copolymer comprising linear molecules of uniform relative molecular mass and uniform elemental composition but different sequential arrangements of the various types of monomeric units , is not uniform (e.g., a copolymer comprising molecules with a random arrangement as well as a block arrangement of monomeric units ). Note 3: A polymer uniform with respect only to either relative molecular mass or constitution may be termed uniform, provided a suitable qualifier is used (e.g., 'a polymer uniform with respect to relative molecular mass'). Note 4: The adjectives monodisperse and polydisperse are deeply rooted in the literature, despite the former being non-descriptive and self-contradictory. They are in common usage and it is recognized that they will continue to be used for some time; nevertheless, more satisfactory terms are clearly desirable. After an extensive search for possible replacements, the terms uniform and non-uniform have been selected and they are now the preferred adjectives.",
+    "source": "section:2.13"
+  },
+  {
+    "term": "polydisperse polymer",
+    "definition": "Polymer comprising molecules non-uniform with respect to relative molecular mass or constitution or both. Note: See notes 2 and 4 to Definition 2.13.",
+    "source": "section:2.14"
+  },
+  {
+    "term": "regular polymer",
+    "definition": "Polymer composed of regular macromolecules , regular star macromolecules , or regular comb macromolecules . Note: A polymer consisting of star macromolecules with arms identical with respect to constitution and degree of polymerization is considered to be regular; see Note 2 to Definition 1.51. Analogously, a polymer consisting of comb macromolecules with the subchains between the branch points of the main chain and the terminal subchain s of the main chain identical with respect to constitution and degree of polymerization and the sidechains identical with respect to constitution and degree of polymerization is considered to be regular; see Note 1 to Definition 1.52.",
+    "source": "section:2.15"
+  },
+  {
+    "term": "irregular polymer",
+    "definition": "Polymer composed of irregular macromolecules .",
+    "source": "section:2.16"
+  },
+  {
+    "term": "tactic polymer",
+    "definition": "Polymer composed of tactic macromolecules .",
+    "source": "section:2.17"
+  },
+  {
+    "term": "isotactic polymer",
+    "definition": "Polymer composed of isotactic macromolecules .",
+    "source": "section:2.18"
+  },
+  {
+    "term": "syndiotactic polymer",
+    "definition": "Polymer composed of syndiotactic macromolecules .",
+    "source": "section:2.19"
+  },
+  {
+    "term": "stereoregular polymer",
+    "definition": "Polymer composed of stereoregular macromolecules .",
+    "source": "section:2.20"
+  },
+  {
+    "term": "atactic polymer",
+    "definition": "Polymer composed of atactic macromolecules .",
+    "source": "section:2.21"
+  },
+  {
+    "term": "block polymer",
+    "definition": "Polymer composed of block macromolecules .",
+    "source": "section:2.22"
+  },
+  {
+    "term": "graft polymer",
+    "definition": "Polymer composed of graft macromolecules .",
+    "source": "section:2.23"
+  },
+  {
+    "term": "block copolymer",
+    "definition": "Copolymer that is a block polymer . Note: In the constituent macromolecules of a block copolymer, adjacent blocks are constitutionally different, i.e., adjacent blocks comprise constitutional derived from different species of monomer or from the same species of monomer but with a different composition or sequence distribution of constitutional units .",
+    "source": "section:2.24"
+  },
+  {
+    "term": "graft copolymer",
+    "definition": "Copolymer that is a graft polymer . Note: In the constituent macromolecules of a graft copolymer , adjacent blocks in the main chain or sidechains , or both, are constitutionally different, i.e., adjacent blocks comprise constitutional units derived from different species of monomer or from the same species of monomer but with a different composition or sequence distribution of constitutional units .",
+    "source": "section:2.25"
+  },
+  {
+    "term": "stereoblock polymer",
+    "definition": "Polymer composed of stereoblock macromolecules .",
+    "source": "section:2.26"
+  },
+  {
+    "term": "linear polymer",
+    "definition": "Polymer composed of linear macromolecules .",
+    "source": "section:2.27"
+  },
+  {
+    "term": "linear copolymer",
+    "definition": "Copolymer composed of linear macromolecules .",
+    "source": "section:2.28"
+  },
+  {
+    "term": "single-strand polymer",
+    "definition": "Polymer , the macromolecules of which are single-strand macromolecules .",
+    "source": "section:2.29"
+  },
+  {
+    "term": "double-strand polymer",
+    "definition": "Polymer , the macromolecules of which are double-strand macromolecules . Note 1: A polymer , the macromolecules of which are spiro macromolecules , is termed a spiro polymer. Note 2: A polymer , the macromolecules of which are ladder macromolecules , is termed a ladder polymer.",
+    "source": "section:2.30"
+  },
+  {
+    "term": "double-strand copolymer",
+    "definition": "Copolymer , the macromolecules of which are double-strand macromolecules .",
+    "source": "section:2.31"
+  },
+  {
+    "term": "star polymer",
+    "definition": "Polymer composed of star macromolecules .",
+    "source": "section:2.32"
+  },
+  {
+    "term": "comb polymer",
+    "definition": "Polymer composed of comb macromolecules . Note: See the Notes to Definitions 1.52 and 2.15.",
+    "source": "section:2.33"
+  },
+  {
+    "term": "branched polymer",
+    "definition": "Polymer , the molecules of which are branched chains .",
+    "source": "section:2.34"
+  },
+  {
+    "term": "macromonomer",
+    "definition": "Polymer or oligomer composed of macromonomer molecules .",
+    "source": "section:2.35"
+  },
+  {
+    "term": "mesogenic monomer",
+    "definition": "Monomer which can impart the properties of liquid crystals to the polymer s formed by its polymerization .",
+    "source": "section:2.36"
+  },
+  {
+    "term": "prepolymer",
+    "definition": "Polymer or oligomer composed of prepolymer molecules .",
+    "source": "section:2.37"
+  },
+  {
+    "term": "polyelectrolyte",
+    "definition": "Polymer composed of polyelectrolyte molecules .",
+    "source": "section:2.38"
+  },
+  {
+    "term": "ionomer",
+    "definition": "Polymer composed of ionomer molecules .",
+    "source": "section:2.39"
+  },
+  {
+    "term": "polymer blend",
+    "definition": "Macroscopically homogeneous mixture of two or more different species of polymer . Note 1: In most cases, blends are homogeneous on scales smaller than several times visual optical wavelengths. Note 2: For polymer blends, no account is taken of the miscibility or immiscibility of the constituent polymer s, i.e., no assumption is made regarding the number of phases present. Note 3: The use of the term polymer alloy for a polymer blend is discouraged.",
+    "source": "section:2.40"
+  },
+  {
+    "term": "network polymer polymer network",
+    "definition": "Polymer composed of one or more networks .",
+    "source": "section:2.41"
+  },
+  {
+    "term": "semi-interpenetrating polymer network (SIPN)",
+    "definition": "Polymer comprising one or more networks and one or more linear or branched polymer (s) characterized by the penetration on a molecular scale of at least one of the networks by at least some of the linear or branched macromolecules . Note: Semi-interpenetrating polymer networks are distinguished from interpenetrating polymer networks because the constituent linear or branched polymer s can, in principle, be separated from the constituent polymer network(s) without breaking chemical bonds; they are polymer blends .",
+    "source": "section:2.42"
+  },
+  {
+    "term": "interpenetrating polymer network (IPN)",
+    "definition": "Polymer comprising two or more networks which are at least partially interlaced on a molecular scale but not covalently bonded to each other and cannot be separated unless chemical bonds are broken. Note: A mixture of two or more pre-formed polymer networks is not an IPN.",
+    "source": "section:2.43"
+  },
+  {
+    "term": "polymer-polymer complex",
+    "definition": "Complex, at least two components of which are different polymer s.",
+    "source": "section:2.44"
+  },
+  {
+    "term": "polymerization",
+    "definition": "Process of converting a monomer or a mixture of monomers into a polymer .",
+    "source": "section:3.1"
+  },
+  {
+    "term": "oligomerization",
+    "definition": "Process of converting a monomer or a mixture of monomers into an oligomer . Note: An oligomerization by chain reaction carried out in the presence of a large amount of chain-transfer agent, so that the end-groups are essentially fragments of the chain-transfer agent, is termed telomerization.",
+    "source": "section:3.2"
+  },
+  {
+    "term": "homopolymerization",
+    "definition": "Polymerization in which a homopolymer is formed.",
+    "source": "section:3.3"
+  },
+  {
+    "term": "copolymerization",
+    "definition": "Polymerization in which a copolymer is formed.",
+    "source": "section:3.4"
+  },
+  {
+    "term": "co-oligomerization",
+    "definition": "Oligomerization in which a cooligomer is formed.",
+    "source": "section:3.5"
+  },
+  {
+    "term": "chain polymerization",
+    "definition": "Chain reaction in which the growth of a polymer chain proceeds exclusively by the reaction or reactions between a monomer or monomers and a reactive site or reactive sites on the polymer chain with regeneration of the reactive site or reactive sites at the end of each growth step. Note 1: A chain polymerization consists of initiation and propagation reactions, and may also include termination and chain-transfer reactions. Note 2: The adjective chain in chain polymerization denotes a chain reaction rather than a polymer chain . Note 3: Propagation in chain polymerization usually occurs without the formation of small molecules. However, cases exist where a low molar-mass by-product is formed, as in the polymerization of oxazolidine-2,5-diones derived from amino acids (commonly termed amino acid N -carboxy anhydrides). When a low-molar-mass by-product is formed, the adjective condensative is recommended to give the term condensative chain polymerization. Note 4: The growth steps are expressed by ``` P x + M → P x +1 (+ L) { x } ∈ {1, 2, ... ∞ } ```",
+    "source": "section:3.6"
+  },
+  {
+    "term": "polycondensation",
+    "definition": "Polymerization in which the growth of polymer chains proceeds by condensation reactions between molecules of all degrees of polymerization . Note 1: The growth steps are expressed by <!-- formula-not-decoded --> where P x and P y denote chains of degree of polymerization x and y , respectively, and L denotes a low-molar- mass by-product. Note 2: The earlier term polycondensation was synonymous with condensation polymerization. It should be noted that the current definitions of polycondensation and condensative chain polymerization were both embraced by the earlier term polycondensation.",
+    "source": "section:3.7"
+  },
+  {
+    "term": "polyaddition",
+    "definition": "Polymerization in which the growth of polymer chains proceeds by addition reactions between molecules of all degrees of polymerization . Note 1: The growth steps are expressed by <!-- formula-not-decoded --> <!-- formula-not-decoded --> where P x and P y denote chains of degrees of polymerization x and y , respectively. Note 2: The earlier term addition polymerization embraced both the current concepts of polyaddition and chain polymerization , but did not include condensative chain polymerization .",
+    "source": "section:3.8"
+  },
+  {
+    "term": "statistical copolymerization",
+    "definition": "Copolymerization in which a statistical copolymer is formed.",
+    "source": "section:3.9"
+  },
+  {
+    "term": "random copolymerization",
+    "definition": "Copolymerization in which a random copolymer is formed.",
+    "source": "section:3.10"
+  },
+  {
+    "term": "alternating copolymerization",
+    "definition": "Copolymerization in which an alternating copolymer is formed.",
+    "source": "section:3.11"
+  },
+  {
+    "term": "periodic copolymerization",
+    "definition": "Copolymerization in which a periodic copolymer is formed.",
+    "source": "section:3.12"
+  },
+  {
+    "term": "ring-opening polymerization",
+    "definition": "Polymerization in which a cyclic monomer yields a monomeric unit which is acyclic or contains fewer cycles than the monomer . Note: If the monomer is polycyclic, the opening of a single ring is sufficient to classify the reaction as a ring-opening polymerization.",
+    "source": "section:3.13"
+  },
+  {
+    "term": "ring-opening copolymerization",
+    "definition": "Copolymerization which is a ring-opening polymerization with respect to at least one monomer .",
+    "source": "section:3.14"
+  },
+  {
+    "term": "radical polymerization",
+    "definition": "Chain polymerization in which the kinetic-chain carriers are radicals. Note: Usually, the growing chain end bears an unpaired electron.",
+    "source": "section:3.15"
+  },
+  {
+    "term": "radical copolymerization",
+    "definition": "Copolymerization which is a radical polymerization .",
+    "source": "section:3.16"
+  },
+  {
+    "term": "ionic polymerization",
+    "definition": "Chain polymerization in which the kinetic-chain carriers are ions or ion-pairs. Note: Usually, the growing chain ends are ions.",
+    "source": "section:3.17"
+  },
+  {
+    "term": "ionic copolymerization",
+    "definition": "Copolymerization which is an ionic polymerization .",
+    "source": "section:3.18"
+  },
+  {
+    "term": "anionic polymerization",
+    "definition": "Ionic polymerization in which the kinetic-chain carriers are anions.",
+    "source": "section:3.19"
+  },
+  {
+    "term": "cationic polymerization",
+    "definition": "Ionic polymerization in which the kinetic-chain carriers are cations.",
+    "source": "section:3.20"
+  },
+  {
+    "term": "living polymerization",
+    "definition": "Chain polymerization from which chain transfer and chain termination are absent. Note: In many cases, the rate of chain initiation is fast compared with the rate of chain propagation, so that the number of kinetic-chain carriers is essentially constant throughout the polymerization .",
+    "source": "section:3.21"
+  },
+  {
+    "term": "living copolymerization",
+    "definition": "Copolymerization which is a living polymerization .",
+    "source": "section:3.22"
+  },
+  {
+    "term": "cyclopolymerization",
+    "definition": "Polymerization in which the number of cyclic structures in the constitutional units of the resulting macromolecules is larger than in the monomer molecules .",
+    "source": "section:3.23"
+  },
+  {
+    "term": "chain scission",
+    "definition": "Chemical reaction resulting in the breaking of skeletal bonds.",
+    "source": "section:3.24"
+  },
+  {
+    "term": "depolymerization",
+    "definition": "Process of converting a polymer into its monomer or a mixture of monomers . Note: Unzipping is depolymerization occurring by a sequence of reactions, progressing along a macromolecule and yielding products, usually monomer molecules , at each reaction step, from which macromolecules similar to the original can be regenerated.",
+    "source": "section:3.25"
+  }
+]

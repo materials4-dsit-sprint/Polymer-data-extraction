@@ -1,0 +1,22 @@
+# Optional: lxml provides more robust parsing. Parser falls back to stdlib html.parser if not installed.
+lxml>=4.9.0
+
+# For PDF -> markdown pipeline (extract_purple_book_terms.py with PDF input)
+pymupdf>=1.24.0
+docling>=2.0.0
+
+# For embedding-based paper filter (filter_by_embedding.py)
+sentence-transformers>=2.2.0
+
+# For LLM extraction (extract_polymer_properties.py)
+ollama>=0.3.0
+openai>=1.0.0
+python-dotenv>=1.0.0
+langchain-openai>=0.2.0
+trustcall>=0.0.39
+# Optional: for Claude models (--extraction-model claude-3-5-sonnet)
+langchain-anthropic>=0.2.0
+# Optional: for local extraction (--extraction-model ollama:deepseek-r1:8b)
+langchain-ollama>=0.2.0
+# For unit validation in post-processing
+pint>=0.23

@@ -1,0 +1,432 @@
+[
+  {
+    "term": "NON-ULTIMATE MECHANICAL PROPERTIES",
+    "definition": "printed in italics are defined elsewhere in the document and their definitions can be found by reference to the alphabetical list of terms.",
+    "source": "section:"
+  },
+  {
+    "term": "NOTE on tensor terminology and symbols ∗",
+    "definition": "The tensor quantities given in this chapter are all second rank, and are sometimes referred to as matrices , according to common usage, so that the two terms, tensor and matrix, are used interchangeably. In many cases, the components (or coefficients) of second-rank tensors are represented by 3 × 3 matrices. Symbols for tensors (matrices) are printed in bold italic type, while symbols for the components are printed in italic type. In general, the base tensors are those for a rectangular Cartesian coordinate system.",
+    "source": "section:"
+  },
+  {
+    "term": "BASIC DEFINITIONS",
+    "definition": "In this section, quantities are expressed with respect to rectangular Cartesian co-ordinate axes, Ox 1 , Ox 2 , Ox 3, except where otherwise stated. The components of a vector V are denoted V 1 , V 2 and V 3 with respect to these axes.",
+    "source": "section:1"
+  },
+  {
+    "term": "traction , t , SI unit: Pa stress vector",
+    "definition": "Vector force per unit area on an infinitesimal element of area that has a given normal and is at a given point in a body. Note 1: The components of t are written as t 1 , t 2 , t 3 . Note 2: t is sometimes called true stress. The term traction (or stress vector) is preferred to avoid confusion with stress tensor .",
+    "source": "section:1.1"
+  },
+  {
+    "term": "stress tensor , σ , SI unit: Pa stress",
+    "definition": "Tensor with components σ ij which are the components of the traction in the Oxi direction on an element of area whose normal is in the Oxj direction. Note 1: A unit vector area with normal n can be resolved into three smaller areas equal to n 1 , n 2 and n 3 with normals in the directions of the respective co-ordinate axes. Accordingly, each component of the traction on the original area can be considered as the sum of components in the same direction on the smaller areas to give <!-- formula-not-decoded --> Note 2: In usual circumstances, in the absence of body couples, σ ij = σ ji . Note 3: For a homogeneous stress σ is the same at all points in a body. Note 4: For an inhomogeneous stress σ ij = σ ij ( x 1 , x 2 , x 3 ). Note 5: σ is a true stress because its components are forces per unit current area (c.f. Notes 3 and 4). Note 6: If σ 13 ( = σ 31 ) = σ 23 ( = σ 32 ) = σ 33 = 0 then the stress is called a plane stress . Plane stresses are associated with the deformation of a sheet of material in the plane of the sheet.",
+    "source": "section:1.2"
+  },
+  {
+    "term": "deformation of an elastic solid",
+    "definition": "Deformation of an elastic solid through which a mass point of the solid with co-ordinates X 1 , X 2 , X 3 in the undeformed state moves to a point with co-ordinates x 1 , x 2 , x 3 in the deformed state and the deformation is defined by ∗ This note has been added to this edition of the 1997 recommendations.",
+    "source": "section:1.3"
+  },
+  {
+    "term": "deformation gradient tensor for an elastic solid , F",
+    "definition": "Tensor whose components are deformation gradients in an elastic solid. Note 1: The components of F are denoted f ij . Note 2: See Definition 1.3 for the definitions of f ij .",
+    "source": "section:1.4"
+  },
+  {
+    "term": "deformation of a viscoelastic liquid or solid",
+    "definition": "Deformation of a viscoelastic liquid or solid through which a mass point of the viscoelastic liquid or solid with co-ordinates 3 2 1 , , x x x ′ ′ ′ at time t ′ moves to a point with co-ordinates x 1 , x 2 , x 3 at time t such that there are functions gi , i = 1, 2, 3, where <!-- formula-not-decoded --> Note 1: t ′ often refers to some past time and t to the present time. Note 2: The relationships between the total differentials of the functions gi define how particles of the material move relative to each other. Thus, if two particles are at small distances 3 2 1 , d , d d x x x ′ ′ ′ apart at time t ′ and d x 1 , d x 2 , d x 3 at time t then <!-- formula-not-decoded --> <!-- formula-not-decoded --> <!-- formula-not-decoded --> Note 3: The matrix with elements gij is denoted G and the matrix with elements g ′ ij is denoted G ′ . Note 4: A homogeneous deformation is one in which the functions gi are linear functions of the xj , i, j = 1, 2, 3. As a result, the gij and G are functions of t only and the equations which define the deformation become <!-- formula-not-decoded --> Note 5: Homogeneous deformations are commonly used or assumed in the methods employed for characterizing the mechanical properties of viscoelastic polymeric liquids and solids.",
+    "source": "section:1.5"
+  },
+  {
+    "term": "deformation gradients in a viscoelastic liquid or solid , f ij",
+    "definition": "If two mass points of a liquid are at a small distance 3 2 1 , d , d d x x x ′ ′ ′ apart at time t ′ then the deformation gradients are the rates of change of i x ′ d with respect to d xj , i, j = 1, 2, 3. <!-- formula-not-decoded --> <!-- formula-not-decoded -->",
+    "source": "section:1.6"
+  },
+  {
+    "term": "deformation gradient tensor for a viscoelastic liquid or solid , F",
+    "definition": "Tensor whose components are deformation gradients in a viscoelastic liquid or solid. Note 1: The components of F are denoted f ij . Note 2: See Definition 1.6 for the definition of fij . Note 3: By matrix multiplication, F = ( G ′ ) -1 G , where the matrices G and G ′ are those defined in Definition 1.5.",
+    "source": "section:1.7"
+  },
+  {
+    "term": "strain tensor",
+    "definition": "Symmetric tensor that results when a deformation gradient tensor is factorized into a rotation tensor followed or preceded by a symmetric tensor. Note 1: A strain tensor is a measure of the relative displacement of the mass points of a body. Note 2: The deformation gradient tensor F may be factorized as <!-- formula-not-decoded --> where R is an orthogonal matrix representing a rotation and U and V are strain tensors which are symmetric. Note 3: Alternative strain tensors are often more useful, for example: the Cauchy tensor, C = U 2 = F T F the Green tensor, B = V 2 = FF T the Finger tensor, C -1 the Piola tensor, B -1 where 'T' denotes transpose and '-1' denotes inverse. B is most useful for solids and C and C -1 for viscoelastic liquids and solids. Note 4: If the 1,3; 3,1; 2,3; 3,2; 3,3 elements of a strain tensor are equal to zero then the strain is termed plane strain .",
+    "source": "section:1.8"
+  },
+  {
+    "term": "Cauchy tensor , C",
+    "definition": "Strain tensor for a viscoelastic liquid or solid, whose elements are <!-- formula-not-decoded -->",
+    "source": "section:1.9"
+  },
+  {
+    "term": "Green tensor , B",
+    "definition": "Strain tensor for an elastic solid, whose elements are <!-- formula-not-decoded --> where Xi and xi are co-ordinates in the undeformed and deformed states, respectively. Note 1: See Definition 1.3 for the definition of Xi and xi . Note 2: See Definition 1.8 for the definition of a strain tensor . Note 3: For small strains, B may be expressed by the equation <!-- formula-not-decoded --> where I is the unit matrix of order three and ε is the small-strain tensor . The components of ε are <!-- formula-not-decoded --> with uk = xk - Xk , k = 1, 2, 3, the displacements due to the deformation.",
+    "source": "section:1.10"
+  },
+  {
+    "term": "Finger tensor , C -1",
+    "definition": "Strain tensor , for a viscoelastic liquid or solid, whose elements are <!-- formula-not-decoded --> where i x ′ and xi are co-ordinates of a particle at times t ′ and t , respectively. Note: See Definition 1.5 for the definition of i x ′ and xi .",
+    "source": "section:1.11"
+  },
+  {
+    "term": "rate-of-strain tensor , D , SI unit: s -1",
+    "definition": "Time derivative of a strain tensor for a viscoelastic liquid or solid in homogeneous deformation at reference time, t . Note 1: For an inhomogeneous deformation , the material derivative has to be used to find time derivatives of strain. Note 2:       ′ ∂ ∂  =      ′ ∂ ∂ = ′→ ′→ t V t U D t t t t lim lim , where U and V are defined in Definition 1.8, note 2. Note 3: The elements of D are <!-- formula-not-decoded --> where the vk are the components of the velocity v at x and time, t .",
+    "source": "section:1.12"
+  },
+  {
+    "term": "vorticity tensor , W , SI unit: s -1",
+    "definition": "Derivative, for a viscoelastic liquid or solid in homogeneous deformation , of the rotational part of the deformation-gradient tensor at reference time, t . Note 1: For an inhomogeneous deformation the material derivative has to be used. Note 2:       ′ ∂ ∂ = ′→ t R W t t lim , where R is defined in Definition 1.8, note 2. Note 3: The elements of W are <!-- formula-not-decoded --> where the ν k are the components of the velocity v at x and time t .",
+    "source": "section:1.13"
+  },
+  {
+    "term": "Rivlin-Ericksen tensors , A n , SI unit : s -n",
+    "definition": "Rivlin-Ericksen tensor of order n , for a viscoelastic liquid or solid in homogeneous deformation , is the nth time derivative of the Cauchy strain tensor at reference time, t . Note 1: For an inhomogeneous deformation the material derivatives have to be used. <!-- formula-not-decoded --> Note 3: A 0 = I , where I is the unit matrix of order three. <!-- formula-not-decoded --> where 'T' denotes transpose and D is the rate-of-strain tensor . Note 5: In general, 0, 1, 2, ... , T 1 = + + = + n A F A F A A n n n n &amp; &amp; &amp;",
+    "source": "section:1.14"
+  },
+  {
+    "term": "DEFORMATIONS USED EXPERIMENTALLY",
+    "definition": "All deformations used in conventional measurements of mechanical properties are interpreted in terms of homogeneous deformations .",
+    "source": "section:2"
+  },
+  {
+    "term": "general orthogonal homogeneous deformation of an elastic solid",
+    "definition": "Deformation, such that a mass point of the solid with co-ordinates X 1 , X 2 , X 3 in the undeformed state moves to a point with co-ordinates x 1 , x 2 , x 3 in the deformed state, with <!-- formula-not-decoded --> where the λ i are constants. Note 1: The relationships between the xi and Xi for orthogonal homogeneous deformation s are a particular case of the general relationships given in Definition 1.3, provided the deformation does not include a rotation and the co-ordinate axes are chosen as the principal directions of the deformation. Note 2: The λ i are effectively deformation gradients , or, for finite deformations, the deformation ratios characterizing the deformation. Note 3: For an incompressible material, λ 1 λ 2 λ 3 = 1.",
+    "source": "section:2.1"
+  },
+  {
+    "term": "uniaxial deformation of an elastic solid",
+    "definition": "Orthogonal, homogeneous deformation in which, say, <!-- formula-not-decoded --> Note 1: See Definition 2.1 for the definition of λ i , i = 1, 2, 3. Note 2: For an incompressible material, λ 2 = λ 3 = 1/ λ 1/2 .",
+    "source": "section:2.2"
+  },
+  {
+    "term": "uniaxial deformation ratio , λ",
+    "definition": "Quotient of the length ( l ) of a sample under uniaxial tension or compression and its original length ( l 0 ) <!-- formula-not-decoded --> Note 1: In tension λ (&gt;1) may be termed the extension ratio . Note 2: In compression λ (&lt;1) may be termed the compression ratio . Note 3: λ is equivalent to λ 1 in Definitions 2.1 and 2.2.",
+    "source": "section:2.3"
+  },
+  {
+    "term": "deformation ratio",
+    "definition": "Quotient of the length ( l ) of a sample under uniaxial tension or compression and its original length ( l 0 ) <!-- formula-not-decoded --> Note 1: In tension λ (&gt;1) may be termed the extension ratio . Note 2: In compression λ (&lt;1) may be termed the compression ratio . Note 3: λ is equivalent to λ 1 in Definitions 2.1 and 2.2.",
+    "source": "section:2.3"
+  },
+  {
+    "term": "uniaxial strain , ε",
+    "definition": "Change in length of a sample in uniaxial tensile or compressive deformation divided by its initial length <!-- formula-not-decoded --> where l 0 and l 1 are, respectively, the initial and final lengths. Note 1: ε = λ -1, where λ is the uniaxial deformation ratio . Note 2: ε &gt; 0 is referred to as (uniaxial) tensile strain . Note 3: ε &lt; 0 is referred to as (uniaxial) compressive strain .",
+    "source": "section:2.4"
+  },
+  {
+    "term": "engineering strain",
+    "definition": "Change in length of a sample in uniaxial tensile or compressive deformation divided by its initial length <!-- formula-not-decoded --> where l 0 and l 1 are, respectively, the initial and final lengths. Note 1: ε = λ -1, where λ is the uniaxial deformation ratio . Note 2: ε &gt; 0 is referred to as (uniaxial) tensile strain . Note 3: ε &lt; 0 is referred to as (uniaxial) compressive strain .",
+    "source": "section:2.4"
+  },
+  {
+    "term": "Hencky strain , ε H",
+    "definition": "Integral over the total change in length of a sample of the incremental strain in uniaxial tensile deformation <!-- formula-not-decoded --> l 0 , l 1 and l are, respectively, the initial, final and instantaneous lengths . Note 1: See uniaxial strain (Definition 2.4).",
+    "source": "section:2.5"
+  },
+  {
+    "term": "Poisson's ratio , µ",
+    "definition": "In a sample under small uniaxial deformation , the negative quotient of the lateral strain ( ε lat) and the longitudinal strain ( ε long) in the direction of the uniaxial force <!-- formula-not-decoded --> Note 1: Lateral strain ε lat is the strain normal to the uniaxial deformation . Note 2: ε lat = λ 2 - 1 = λ 3 - 1 (see Definitions 2.2 and 2.4). Note 3: For an isotropic, incompressible material, µ = 0.5. It should be noted that, in materials referred to as incompressible, volume changes do in fact occur in deformation, but they may be neglected. Note 4: For an anisotropic material, µ varies with the direction of the uniaxial deformation . Note 5: Poisson's ratio is also sometimes called the lateral contraction ratio and is sometimes used in cases of non-linear deformation. The present definition will not apply in such cases.",
+    "source": "section:2.6"
+  },
+  {
+    "term": "pure shear of an elastic solid",
+    "definition": "Orthogonal, homogeneous deformation in which <!-- formula-not-decoded --> Note: See Definition 2.1 for the definition of λ i , i = 1, 2, 3.",
+    "source": "section:2.7"
+  },
+  {
+    "term": "simple shear of an elastic solid",
+    "definition": "Homogeneous deformation , such that a mass point of the solid with co-ordinates X 1 , X 2 , X 3 in the undeformed state moves to a point with co-ordinate x 1 , x 2 , x 3 in the deformed state, with <!-- formula-not-decoded --> x 3 = X 3 where γ is constant. Note 1: The relationships between the xi and Xi , i = 1, 2, 3, in simple shear are a particular case of the general relationships given in Definition 1.3. Note 2: γ is known as the shear or shear strain . Note 3: The deformation gradient tensor for the simple shear of an elastic solid is <!-- formula-not-decoded -->",
+    "source": "section:2.8"
+  },
+  {
+    "term": "bulk compression , χ",
+    "definition": "Fractional decrease in volume ( V ) caused by a hydrostatic pressure <!-- formula-not-decoded --> Note: Also referred to as volume compression , isotropic compression and bulk compressive strain .",
+    "source": "section:2.9"
+  },
+  {
+    "term": "general homogeneous deformation or flow of a viscoelastic liquid or solid",
+    "definition": "Flow or deformation such that a particle of the viscoelastic liquid or solid with co-ordinate vector X ′ at time t ′ moves to a point with co-ordinate vector X at time t with <!-- formula-not-decoded --> where G ′ and G are tensors defining the type of deformation or flow and are functions of time only. Note 1: The definition is equivalent to that given in Definition 1.5, note 4. Accordingly, the elements of G ′ and G are denoted ( ) t g ij ′ ′ and ( ) t g ij and those of X ′ and X , ( ′ ′ ′ x x x 1 2 3 , , ) and ( x 1 , x 2 , x 3 ). Note 2: For an incompressible material det G = 1, where det G is the determinant of G . Note 3: Deformations and flows used in conventional measurements of properties of viscoelastic liquids and solids are usually interpreted assuming incompressibility.",
+    "source": "section:2.10"
+  },
+  {
+    "term": "homogeneous orthogonal deformation or flow of an incompressible viscoelastic liquid or solid",
+    "definition": "Deformation or flow, as defined in Definition 2.10, such that <!-- formula-not-decoded --> Note 1: The gii are defined in Definition 1.5, notes 2 to 4. Note 2: If g 22 = g 33 = 1 2 11 1 g the elongational deformation or flow is uniaxial . Note 3: The Finger strain tensor for a homogeneous orthogonal deformation or flow of incompressible, viscoelastic liquid or solid is",
+    "source": "section:2.11"
+  },
+  {
+    "term": "steady uniaxial homogeneous elongational deformation or flow of an incompressible viscoelastic liquid or solid",
+    "definition": "Uniaxial homogeneous elongational flow in which <!-- formula-not-decoded --> where E γ &amp; is a constant, E denotes elongational and g 22 = g 33 = 12 11 1 g . Note 1: g 11 ( t ), g 22 ( t ) and g 33 ( t ) are elements of the tensor G defined in Definition 1.5. Note 2: From the definition of general homogeneous flow (Definition 1.5) ( G´X´ = GX = constant) in the particular case of steady uniaxial elongation flow <!-- formula-not-decoded --> and differentiation with respect to time gives <!-- formula-not-decoded --> Hence, E γ &amp; is the elongational or extensional strain rate . Note 3: The Finger strain tensor for a steady uniaxial homogeneous elongation deformation or flow of an incompressible viscoelastic liquid or solid is <!-- formula-not-decoded -->",
+    "source": "section:2.12"
+  },
+  {
+    "term": "homogeneous simple shear deformation or flow of an incompressible viscoelastic liquid or solid",
+    "definition": "Flow or deformation such that <!-- formula-not-decoded --> where γ ( t ) is the shear . Note 1: The general tensor G is defined in Definition 1.5. Note 2: ( ) t t d d γ γ = &amp; is the shear rate . The unit of γ &amp; is s -1 .",
+    "source": "section:2.13"
+  },
+  {
+    "term": "STRESSES OBSERVED EXPERIMENTALLY",
+    "definition": "For a given deformation or flow, the resulting stress depends on the material. However, the stress tensor does take particular general forms for experimentally used deformations (see section 2 ). The definitions apply to elastic solids, and viscoelastic liquids and solids.",
+    "source": "section:3"
+  },
+  {
+    "term": "tensile stress , σ , SI unit: Pa",
+    "definition": "Component σ 11 of the stress tensor resulting from a tensile uniaxial deformation . Note 1: The stress tensor for a uniaxial deformation is given in Definition 3.1. Note 2: The O x1 direction is chosen as the direction of the uniaxial deformation .",
+    "source": "section:3.2"
+  },
+  {
+    "term": "compressive stress , σ , SI unit: Pa",
+    "definition": "Component stress tensor resulting from a compressive uniaxial deformation . σ 11 of the Note: See notes 1 and 2 of Definition 3.2.",
+    "source": "section:3.3"
+  },
+  {
+    "term": "nominal stress , σ , SI unit: Pa engineering stress",
+    "definition": "Force resulting from an applied tensile or compressive uniaxial deformation divided by the initial cross-sectional area of the sample normal to the applied deformation. Note: The term engineering or nominal stress is often used in circumstances when the deformation of the body is not infinitesimal and its cross-sectional area changes.",
+    "source": "section:3.4"
+  },
+  {
+    "term": "stress tensor resulting from a simple shear deformation or flow , σ , SI unit: Pa",
+    "definition": "For a simple shear deformation or flow the stress tensor takes the form <!-- formula-not-decoded --> where σ 21 is numerically equal to σ 12 . Note 1: See Definition 1.2 for the general definition of σ . Note 2: σ ii , i = 1, 2, 3 are denoted normal stresses . Note 3: σ 12 is called the shear stress .",
+    "source": "section:3.5"
+  },
+  {
+    "term": "first normal-stress difference , N 1, SI unit: Pa first normal-stress function",
+    "definition": "Difference between the first two normal stresses σ 11 and σ 22 in simple shear flow <!-- formula-not-decoded --> Note 1: See Definition 3.5 for the definition of σ 11 and σ 22 . Note 2: For Newtonian liquids N 1 = 0.",
+    "source": "section:3.6"
+  },
+  {
+    "term": "second normal-stress difference , N 2, SI unit: Pa second normal-stress function",
+    "definition": "Difference between the second and third normalstresses ( σ 22 -σ 33) in simple shear flow <!-- formula-not-decoded --> Note 1: See Definition 3.5 for the definition of σ 22 and σ 33 Note 2: For Newtonian liquids , N 2 = 0.",
+    "source": "section:3.7"
+  },
+  {
+    "term": "constitutive equation for an elastic solid",
+    "definition": "Equation relating stress and strain in an elastic solid. Note 1: For an elastic solid, the constitutive equation may be written <!-- formula-not-decoded --> where B is the Green strain tensor . I 1 , I 2 , I 3 are invariants of B , with <!-- formula-not-decoded --> where 'Tr' denotes trace and 'det' denotes determinant. The invariants are independent of the co-ordinate axes used and for symmetric tensors there are three independent invariants. W is a function of I 1 , I 2 and I 3 and is known as the stored energy function and is the increase in energy (stored energy) per unit initial volume due to the deformation. Note 2: For small deformations, the constitutive equation may be written <!-- formula-not-decoded --> where G is the shear modulus , ε is the small-strain tensor and l is a Lamé constant . Note 3: The Lamé constant, ( l ), is related to the shear modulus ( G ) and Young's modulus ( E ) by the equation <!-- formula-not-decoded --> Note 4: For an incompressible elastic solid, the constitutive equation may be written <!-- formula-not-decoded --> where P is the hydrostatic (or isotropic) pressure, I 3 = 1 and W is a function of I 1 and I 2 , only. Note 5: For small deformations of an incompressible, inelastic solid, the constitutive equation may be written <!-- formula-not-decoded -->",
+    "source": "section:4.1"
+  },
+  {
+    "term": "constitutive equation for an incompressible viscoelastic liquid or solid",
+    "definition": "Equation relating stress and deformation in an incompressible viscoelastic liquid or solid. Note 1: A possible general form of constitutive equation when there is no dependence of stress on amount of strain is <!-- formula-not-decoded --> where A 1 , A 2 , . . . . are the Rivlin-Ericksen tensors . Note 2: For a non-Newtonian liquid (see note 3), a form of the general constitutive equation which may be used is <!-- formula-not-decoded --> where η is the viscosity and α and ß are constants.",
+    "source": "section:4.2"
+  },
+  {
+    "term": "modulus , in general M , SI unit: Pa",
+    "definition": "in bulk compressive deformation K , SI unit: Pa in uniaxial deformation E , SI unit: Pa in shear deformation G , SI unit: Pa Quotient of stress and strain where the type of stress and strain is defined by the type of deformation employed. Note 1: The detailed definitions of K , E and G are given in Definitions 4.5, 4.7 and 4.10. Note 2: An elastic modulus or modulus of elasticity is a modulus of a body which obeys Hooke's law ( stress ∝ strain).",
+    "source": "section:4.3"
+  },
+  {
+    "term": "compliance , in general C , SI unit: Pa",
+    "definition": "in bulk compressive deformation B , SI unit: Pa in uniaxial deformation D , SI unit: Pa in shear deformation J , SI unit: Pa Quotient of strain and stress where the type of strain and stress is defined by the type of deformation employed. Note 1: C = 1/ M , where M is modulus . Note 2: The detailed definitions of B , D and J are given in Definitions 4.6, 4.8 and 4.11.",
+    "source": "section:4.4"
+  },
+  {
+    "term": "bulk modulus , K , SI unit: Pa",
+    "definition": "Quotient of hydrostatic pressure ( P ) and bulk compression ( χ ) <!-- formula-not-decoded --> Note 1: Also known as bulk compressive modulus . Note 2: For the definition of χ , see Definition 2.9. Note 3: At small deformations, the bulk modulus is related to Young's modulus ( E ) by <!-- formula-not-decoded --> where µ is Poisson's ratio .",
+    "source": "section:4.5"
+  },
+  {
+    "term": "bulk compliance , B , SI unit: Pa -1",
+    "definition": "Quotient of bulk compression ( χ ) and hydrostatic pressure ( P ) <!-- formula-not-decoded --> Note 1: Also known as bulk compressive compliance . Note 2: For the definition of χ , see Definition 2.9. Note 3: B = 1/ K , where K is the bulk modulus .",
+    "source": "section:4.6"
+  },
+  {
+    "term": "Young's modulus , E , SI unit: Pa",
+    "definition": "Quotient of uniaxial stress ( σ ) and strain ( ε ) in the limit of zero strain <!-- formula-not-decoded --> Note 1: The stress is a true stress , as in Definitions 3.2 and 3.3, and not a nominal stress , as in Definition 3.4. Note 2: ε is defined in Definition 2.4. Note 3: Young's modulus may be evaluated using tensile or compressive uniaxial deformation . If determined using tensile deformation it may be termed tensile modulus . Note 4: For non-Hookean materials the Young's modulus is sometimes evaluated as: - (i) the secant modulus - the quotient of stress ( σ ) and strain at some nominal strain ( ε ) in which case <!-- formula-not-decoded --> - (ii) the tangent modulus - the slope of the stress -strain curve at some nominal strain ( ε ´), in which case <!-- formula-not-decoded -->",
+    "source": "section:4.7"
+  },
+  {
+    "term": "uniaxial compliance , D , SI unit: Pa -1",
+    "definition": "Quotient of uniaxial strain ( ε ) and uniaxial stress ( σ ) in the limit of zero strain <!-- formula-not-decoded --> Note 1: The stress is a true stress as in Definitions 3.2 and 3.3, and not a nominal stress , as in Definition 3.4. Note 2: ε is defined in Definition 2.4. Note 3: Uniaxial compliance may be evaluated using tensile or compressive uniaxial deformation . If determined using tensile deformation it may be termed tensile compliance . Note 4: D = 1/ E , where E is Young's modulus .",
+    "source": "section:4.8"
+  },
+  {
+    "term": "extensional viscosity , η E, SI unit: Pa s elongational viscosity",
+    "definition": "Quotient of the difference between the longitudinal stress ( σ 11) and the lateral stress ( σ 22 ) and the elongational strain rate ( E γ &amp; ) in steady uniaxial flow <!-- formula-not-decoded -->",
+    "source": "section:4.9"
+  },
+  {
+    "term": "shear modulus , G , SI unit: Pa",
+    "definition": "Quotient of shear stress ( σ 12) and shear strain ( γ ) <!-- formula-not-decoded --> Note 1: See Definition 2.8 for the definitions of γ for an elastic solid and Definition 3.5 for the definition of σ 12 . Note 2: The shear modulus is related to Young's modulus ( E ) by the equation <!-- formula-not-decoded --> where µ is Poisson's ratio . Note 3: For elastomers, which are assumed incompressible, the modulus is often evaluated in uniaxial tensile or compressive deformation using λ -λ -2 as the strain function (where λ is the uniaxial deformation ratio ). In the limit of zero deformation the shear modulus is evaluated as <!-- formula-not-decoded --> where σ is the tensile or compressive stress .",
+    "source": "section:4.10"
+  },
+  {
+    "term": "shear compliance , J , SI unit: Pa -1",
+    "definition": "Quotient of shear strain ( γ ) and shear stress ( σ 12 ) <!-- formula-not-decoded --> Note 1: See Definition 2.8 for the definition of γ for an elastic solid and 3.5 for the definition of σ 12 . Note 2: J = 1/ G , where G is the shear modulus .",
+    "source": "section:4.11"
+  },
+  {
+    "term": "shear viscosity ,",
+    "definition": "viscosity Quotient of shear stress ( σ 12) and shear rate ( γ &amp; ) in steady, simple shear flow <!-- formula-not-decoded --> Note 1: See Definitions 3.5 and 2.13 for the definitions of σ 12 and γ &amp; . Note 2: For Newtonian liquids , σ 12 is directly proportional to γ &amp; and η is constant. Note 3: For non-Newtonian liquids , when σ 12 is not directly proportional to γ &amp; , η varies with γ &amp; . The value of η evaluated at a given value of γ &amp; is termed the non-Newtonian viscosity .",
+    "source": "section:4.12"
+  },
+  {
+    "term": "η , SI unit: Pa s coefficient of viscosity",
+    "definition": "viscosity Quotient of shear stress ( σ 12) and shear rate ( γ &amp; ) in steady, simple shear flow <!-- formula-not-decoded --> Note 1: See Definitions 3.5 and 2.13 for the definitions of σ 12 and γ &amp; . Note 2: For Newtonian liquids , σ 12 is directly proportional to γ &amp; and η is constant. Note 3: For non-Newtonian liquids , when σ 12 is not directly proportional to γ &amp; , η varies with γ &amp; . The value of η evaluated at a given value of γ &amp; is termed the non-Newtonian viscosity .",
+    "source": "section:4.12"
+  },
+  {
+    "term": "first normal-stress coefficient , ψ 1 , SI unit: Pa s 2",
+    "definition": "Quotient of the first normal stress difference ( N 1) and the square of the shear rate ( γ &amp; ) in the limit of zero shear rate <!-- formula-not-decoded --> Note: See Definitions 3.6 and 2.13 for the definitions of N 1 and γ &amp; .",
+    "source": "section:4.13"
+  },
+  {
+    "term": "second normal-stress coefficient , ψ 2 , SI unit: Pa s 2",
+    "definition": "Quotient of the second normal stress difference ( N 2) and the square of the shear rate ( γ &amp; ) in the limit of zero shear rate <!-- formula-not-decoded --> Note: See Definitions 3.7 and 2.13 for the definitions of N 2 and γ &amp; .",
+    "source": "section:4.14"
+  },
+  {
+    "term": "viscoelasticity",
+    "definition": "Time-dependent response of a liquid or solid subjected to stress or strain. Note 1: Both viscous and elastic responses to stress or strain are required for the description of viscoelastic behaviour. Note 2: Viscoelastic properties are usually measured as responses to an instantaneously applied or removed constant stress or strain or a dynamic stress or strain . The latter is defined as a sinusoidal stress or strain of small amplitude, which may or may not decrease with time.",
+    "source": "section:5.1"
+  },
+  {
+    "term": "linear viscoelastic behaviour",
+    "definition": "Interpretation of the viscoelastic behaviour of a liquid or solid in simple shear or uniaxial deformation such that <!-- formula-not-decoded --> where σ is the shear stress or uniaxial stress, γ is the shear strain or uniaxial strain , and P (D) and Q (D) are polynomials in D, where D is the differential coefficient operator d / d t . Note 1: In linear viscoelastic behaviour , stress and strain are assumed to be small so that the squares and higher powers of σ and γ may be neglected. Note 2: See Definitions 3.5 and 2.13 for the definitions of σ and γ in simple shear . Note 3: See Definitions 3.2 and 2.12 for definitions of σ and γ ( ≡ γ E ) in uniaxial deformations . Note 4: The polynomials Q (D) and P (D) have the forms: Q (D) = a (D + q 0 ) . . . . . (D + qn ) (a polynomial of degree n + 1) P (D) = (D + p 0 )(D + p 1 ) . . (D + pn ) (a polynomial of degree n + 1) P (D) = (D + p 0 ) (D + p 1 ) . . (D + pn1 ) (a polynomial of degree n ) where - (i) a is a constant (ii) q 0 ≥ 0, p 0 &gt; 0 and ps , qs &gt; 0, s = 1 , . . ., n . - (iii) qi &lt; pi &lt; qi+ 1 and qn &lt; pn (if pn exists) with pi and qi related to relaxation and retardation times , respectively. Note 5: If q 0= 0, the material is a liquid, otherwise it is a solid. Note 6: Given that Q (D) is a polynomial of degree n + 1; if P (D) is also of degree n + 1 the material shows instantaneous elasticity; if P (D) is of degree n , the material does not show instantaneous elasticity (i.e. elasticity immediately the deformation is applied.) Note 7: There are definitions of linear viscoelasticity which use integral equations instead of the differential equation in Definition 5.2. (See, for example, [11].) Such definitions have certain advantages regarding their mathematical generality. However, the approach in the present document, in terms of differential equations, has the advantage that the definitions and descriptions of various viscoelastic properties can be made in terms of commonly used mechano-mathematical models (e.g. the Maxwell and Voigt-Kelvin models ).",
+    "source": "section:5.2"
+  },
+  {
+    "term": "Maxwell model Maxwell element",
+    "definition": "Model of the linear viscoelastic behaviour of a liquid in which <!-- formula-not-decoded --> where α and β are positive constants, D the differential coefficient operator d / d t , and σ and γ are the stress and strain in simple shear or uniaxial deformation . Note 1: See Definition 5.2 for a discussion of σ and γ . Note 2: The relationship defining the Maxwell model may be written <!-- formula-not-decoded --> Note 3: Comparison with the general definition of linear viscoelastic behaviour shows that the polynomials P (D) and Q (D) are of order one, q 0 = 0, p 0 = β / α and a = 1/ α . Hence, a material described by a Maxwell model is a liquid ( q 0 = 0) having instantaneous elasticity ( P (D) and Q (D) are of the same order). Note 4: The Maxwell model may be represented by a spring and a dashpot filled with a Newtonian liquid in series, in which case 1/ α is the spring constant (force = 1/ α )·extension) and 1/ β is the dashpot constant (force = (1/ β )·rate of extension).",
+    "source": "section:5.3"
+  },
+  {
+    "term": "Voigt-Kelvin model",
+    "definition": "Model of the linear viscoelastic behaviour of a solid in which <!-- formula-not-decoded --> where α and β are positive constants, D is the differential coefficient operator d / d t , and σ and γ are the stresses and strain in simple shear or uniaxial deformation . Note 1: The Voigt-Kelvin model is also known as the Voigt model or Voigt element . Note 2: See Definition 5.2 for a discussion of σ and γ . Note 3: The relationship defining the Voigt-Kelvin model may be written <!-- formula-not-decoded --> Note 4: Comparison with the general definition of linear viscoelastic behaviour shows that the polynomial P (D) is of order zero, Q (D) is of order one, aq 0 = α and a = β . Hence, a material described by the Voigt-Kelvin model is a solid ( q 0 &gt; 0) without instantaneous elasticity ( P (D) is a polynomial of order one less than Q (D)). Note 5: The Voigt-Kelvin model may be represented by a spring and a dashpot filled with a Newtonian liquid in parallel, in which case α is the spring constant (force = α ·extension) and β is the dashpot constant (force = β ·rate of extension).",
+    "source": "section:5.4"
+  },
+  {
+    "term": "Voigt-Kelvin element",
+    "definition": "Model of the linear viscoelastic behaviour of a solid in which <!-- formula-not-decoded --> where α and β are positive constants, D is the differential coefficient operator d / d t , and σ and γ are the stresses and strain in simple shear or uniaxial deformation . Note 1: The Voigt-Kelvin model is also known as the Voigt model or Voigt element . Note 2: See Definition 5.2 for a discussion of σ and γ . Note 3: The relationship defining the Voigt-Kelvin model may be written <!-- formula-not-decoded --> Note 4: Comparison with the general definition of linear viscoelastic behaviour shows that the polynomial P (D) is of order zero, Q (D) is of order one, aq 0 = α and a = β . Hence, a material described by the Voigt-Kelvin model is a solid ( q 0 &gt; 0) without instantaneous elasticity ( P (D) is a polynomial of order one less than Q (D)). Note 5: The Voigt-Kelvin model may be represented by a spring and a dashpot filled with a Newtonian liquid in parallel, in which case α is the spring constant (force = α ·extension) and β is the dashpot constant (force = β ·rate of extension).",
+    "source": "section:5.4"
+  },
+  {
+    "term": "standard linear viscoelastic solid",
+    "definition": "Model of the linear viscoelastic behaviour of a solid in which <!-- formula-not-decoded --> where α 1 , β 1 , α 2 and β 2 are positive constants, D is the differential coefficient operator d/d t , and σ and γ are the stress and strain in simple shear or uniaxial deformation . Note 1: See Definition 5.2 for a discussion of σ and γ . Note 2: The relationship defining the standard linear viscoelastic solid may be written <!-- formula-not-decoded --> Note 3: Comparison with the general definition of a linear viscoelastic behaviour shows that the polynomial P (D) and Q (D) are of order one, q 0 = α 2 / β 2 , a = β 2 / β 1 and p 0 = α 1 / α 2 . Hence, the standard linear viscoelastic solid is a solid ( aq 0 &gt; 0) having instantaneous elasticity ( P (D) and Q (D) are of the same order). Note 4: The standard linear viscoelastic solid may be represented by: (i) a Maxwell model (of spring constant h 2 and dashpot constant k 2) in parallel with a spring (of spring constant h 1) in which case α 1 = h 2 , β 1 = k 2 , α 2 = h 1 h 2 and β 2 = h 1 k 2 + h 2 k 2 . (ii) a Voigt-Kelvin model (of spring constant h 2 and dashpot constant k 2) in series with a spring (of spring constant h 1) in which case α 1 = h 1 + h 2 , β 1 = k 2 , α 2 = h 1 h 2 and β 2 = h 1 k 2 . Note 5: The standard linear viscoelastic solid can be used to represent both creep and stress relaxation in materials in terms of single retardation and relaxation times , respectively.",
+    "source": "section:5.5"
+  },
+  {
+    "term": "relaxation time , τ , SI unit: s",
+    "definition": "Time characterizing the response of a viscoelastic liquid or solid to the instantaneous application of a constant strain. Note 1: The response of a material to the instantaneous application of a constant strain is termed stress relaxation . Note 2: The relaxation time of a Maxwell element is τ = 1 /p 0 = α / β . Note 3: The relaxation time of a standard linear viscoelastic solid is τ = 1 /p 0 = β 1 / α 1 . Note 4: Generally, a linear viscoelastic material has a spectrum of relaxation times, which are the reciprocals of pi , i = 0, 1, …, n in the polynomial P (D) (see Definition 5.2). Note 5: The relaxation spectrum ( spectrum of relaxation times ) describing stress relaxation in polymers may be considered as arising from a group of Maxwell elements in parallel.",
+    "source": "section:5.6"
+  },
+  {
+    "term": "stress relaxation",
+    "definition": "Change in stress with time after the instantaneous application of a constant strain. Note 1: The applied strain is of the form γ = 0 for t &lt; 0 and γ = γ 0 for t &gt; 0 and is usually a uniaxial extension or a simple shear . Note 2: For linear viscoelastic behaviour , the stress takes the form <!-- formula-not-decoded --> c is a constant that is non-zero if the material has instantaneous elasticity and ( ) t ψ is the relaxation function. Note 3: ( ) t ψ has the form <!-- formula-not-decoded --> where the β i are functions of the pi and qi of the polynomials P (D) and Q (D) defining the linear viscoelastic material . Note 4: The relaxation times of the material are 1 /pi .",
+    "source": "section:5.7"
+  },
+  {
+    "term": "retardation time , τ , SI unit: s",
+    "definition": "Time characterizing the response of a viscoelastic material to the instantaneous application of a constant stress . Note 1: The response of a material to the instantaneous application of a constant stress is termed creep . Note 2: The retardation time of a Voigt-Kelvin element is τ = 1 /q 0 = β / α = (dashpot constant)/(spring constant). Note 3: The retardation time of a standard linear viscoelastic solid is τ = 1 /q 0 = β 2 / α 2 . Note 4: Generally, a linear viscoelastic material has a spectrum of retardation times , which are reciprocals of qi , i = 0, 1, … , n in the polynomial Q (D). Note 5: The retardation spectrum (spectrum of retardation times) describing creep in polymers may be considered as arising from a group of Voigt-Kelvin elements in series.",
+    "source": "section:5.8"
+  },
+  {
+    "term": "creep",
+    "definition": "Change in strain with time after the instantaneous application of a constant stress . or Time-dependent change of the dimensions of a material under a constant load. Note 1: The applied stress is of the form σ = 0 for t &lt; 0 and σ = σ 0 for t &gt; 0 and is usually a uniaxial stress or a simple shear stress . Note 2: For linear viscoelastic behaviour , the strain usually takes the form <!-- formula-not-decoded --> a is a constant that is non-zero if the material has instantaneous elasticity and b is a constant that is non-zero if the material is a liquid. ψ ( t ) is the creep function . In addition, <!-- formula-not-decoded --> is sometimes called the creep compliance . Note 3: The creep function has the form <!-- formula-not-decoded --> where the summation runs from i = 0 to n for a solid and 1 to n for a liquid . The Ai are functions of the pi and qi of the polynomials P (D) and Q (D) defining the linear viscoelastic material and the qi are the qi of the polynomial Q (D) (see Definition 5.2). Note 4: The retardation times of the material are 1 /qi . Note 5: Creep is sometimes described in terms of non-linear viscoelastic behaviour, leading, for example, to evaluation of recoverable shear and steady-state recoverable shear compliance . The definitions of such terms are outside the scope of this document.",
+    "source": "section:5.9"
+  },
+  {
+    "term": "forced oscillation",
+    "definition": "Deformation of a material by the application of a small sinusoidal strain ( γ ) such that <!-- formula-not-decoded --> where γ 0 and ω are positive constants. Note 2: γ 0 is the strain amplitude . Note 1: γ may be in simple shear or uniaxial deformation . Note 3: ω is the angular velocity of the circular motion equivalent to a sinusoidal frequency ν , with ω = 2 πν . The unit of ω is rad s -1 . Note 4: For linear viscoelastic behaviour , a sinusoidal stress ( σ ) results from the sinusoidal strain with ``` σ = σ 0 cos ( ω t + δ ) = σ 0 cos δ cos ω t -σ 0 sin δ sin ω t . ```",
+    "source": "section:5.10"
+  },
+  {
+    "term": "loss factor , tan δ loss tangent",
+    "definition": "Tangent of the phase angle difference ( δ ) between stress and strain during forced oscillations. Note 1: tan δ is calculated using <!-- formula-not-decoded --> Note 2: tan δ is also equal to the ratio of loss to storage modulus . Note 3: A plot of tan δ vs . temperature or frequency is known as a loss curve . - 5.12 storage modulus in general M ´, SI unit: Pa in simple shear deformation G ´, SI unit: Pa in uniaxial deformation E ´, SI unit: Pa Ratio of the amplitude of the stress in phase with the strain ( σ 0 cos δ ) to the amplitude of the strain ( γ 0 ) in the forced oscillation of a material <!-- formula-not-decoded --> Note: See Definition 5.10 for the definition of a forced oscillation in which γ = γ 0 cos ω t and σ = σ 0 cos ( ω t + δ ). - 5.13 loss modulus in general M \", SI unit: Pa in simple shear deformation G \", SI unit: Pa in uniaxial deformation E \", SI unit: Pa Ratio of the amplitude of the stress 90° out of phase with the strain ( σ 0 sin δ ) to the amplitude of the strain ( γ 0 ) in the forced oscillation of a material <!-- formula-not-decoded --> Note: See Definition 5.10 for the definition of a forced oscillation in which γ = γ 0cos ω t and σ = σ 0 cos ( ω t + δ ).",
+    "source": "section:5.11"
+  },
+  {
+    "term": "absolute modulus in general |",
+    "definition": "M *|, SI unit: Pa in simple shear deformation | G *|, SI unit: Pa in uniaxial deformation | E *|, SI unit: Pa Ratio of the amplitude of the stress ( σ 0 ) to the amplitude of the strain ( γ 0 ) in the forced oscillation of a material",
+    "source": "section:5.14"
+  },
+  {
+    "term": "complex modulus in general M *, SI unit: Pa",
+    "definition": "in simple shear deformation G *, SI unit: Pa in uniaxial deformation E *, SI unit: Pa Ratio of complex stress ( σ *) to complex strain ( γ *) in the forced oscillation of material <!-- formula-not-decoded --> Note 1: See Definition 5.10 for the definition of a forced oscillation in which γ = γ cos ω t and σ = σ cos ( ω t + δ ). 0 0 Note 2: The complex strain γ* = γ 0 e i ωt = γ 0 (cos ωt + i sin ωt ), where i = 1 -, so that the real part of the complex strain is that actually applied to the material. Note 3: SI unit: Pa The complex stress σ * = σ 0 e i( ωt + δ ) = σ 0 (cos ( ωt + δ ) + i sin ( ωt + δ )), so that the real part of the complex strain is that actually experienced by the material. Note 4: The complex modulus is related to the storage and loss moduli through the relationships <!-- formula-not-decoded --> Note 5: For linear viscoelastic behaviour interpreted in terms of complex stress and strain (see notes 2 and 3) <!-- formula-not-decoded --> (see Definition 5.2). Further as D σ * = d σ */ d t = i ωσ * and D γ * = i ωγ *, <!-- formula-not-decoded --> - 5.16 storage compliance in general C ´, SI unit: Pa -1 in simple shear deformation J ´, SI unit: Pa -1 in uniaxial deformation D ´, SI unit: Pa -1 Ratio of the amplitude of the strain in phase with the stress ( γ 0 cos δ ) to the amplitude of the stress ( σ 0 ) in the forced oscillation of a material <!-- formula-not-decoded --> Note: See Definition 5.10, note 5 for the definition of a forced oscillation in which γ = γ 0 cos ( ω t -δ ) and σ = σ 0 cos ω t .",
+    "source": "section:5.15"
+  },
+  {
+    "term": "dynamic viscosity , η ´, SI unit: Pa s",
+    "definition": "Ratio of the stress in phase with the rate of strain ( σ 0 sin δ ) to the amplitude of the rate of strain ( ωγ 0 ) in the forced oscillation of a material <!-- formula-not-decoded --> Note 1: See Definition 5.10, note 5 for the definition of a forced oscillation in which γ = γ 0 sin ωt and σ = σ 0 sin ( ωt + δ ), so that γ &amp; = ωγ 0 cos ωt and σ = σ 0 sin δ cos ωt + σ 0 cos δ sin ωt . Note 2: See Definition 5.2, note 6: η ´ = M'' / ω may be used for evaluating the dynamic viscosity . The same expression is often used to evaluate the shear viscosity . The latter use of this expression is not recommended.",
+    "source": "section:5.20"
+  },
+  {
+    "term": "out-of-phase viscosity , η \", SI unit: Pa s",
+    "definition": "Ratio of the stress 90° out of phase with the rate of strain ( σ 0 cos δ ) to the amplitude of the rate of strain ( ωγ 0 ) in the forced oscillation of a material <!-- formula-not-decoded --> Note 1: See Definition 5.10, note 5 for the definition of a forced oscillation in which γ = γ 0 sin ωt and σ = σ 0 sin ( ωt + δ ), so that γ &amp; = ωγ 0 cos ωt and σ = σ 0 sin δ cos ωt + σ 0 cos δ sin ωt . Note 2: See Definition 5.22, note 6: η \" = M '/ ω may be used to evaluate the out-of-phase viscosity .",
+    "source": "section:5.21"
+  },
+  {
+    "term": "complex viscosity , η * , SI unit: Pa s",
+    "definition": "Ratio of complex stress ( σ *) to complex rate of strain ( γ &amp; *) in the forced oscillation of a material <!-- formula-not-decoded --> Note 1: See Definition 5.10, note 5 for the definition of a forced oscillation in which γ = γ 0 sin ω t and σ = σ 0 cos ( ω t + δ ) and the rate of strain γ &amp; = ω 0 cos ω t . Note 3: The complex stress σ * = σ 0 e i( ω t + δ ) = σ 0 (cos ( ω t + δ ) + i sin ( ω t + δ )). Note 2: The complex rate of strain γ &amp; * = i ωγ 0 e i ω t = i ωγ 0 (cos ω t + i sin ω t ), where i = 1 -. Note 4: The complex viscosity may alternatively be expressed as <!-- formula-not-decoded --> where M * is the complex modulus . Note 5: The complex viscosity is related to the dynamic and out-of-phase viscosities through the relationships <!-- formula-not-decoded --> Note 6: The dynamic and out-of-phase viscosities are related to the storage and loss moduli by the relationships η * = η′ - i η″ = M */i ω = ( M ′ + i M ″ )/i ω , so that η′ = M ″ / ω and η″ = M ′ / ω .",
+    "source": "section:5.22"
+  },
+  {
+    "term": "OSCILLATORY DEFORMATIONS AND STRESSES USED EXPERIMENTALLY",
+    "definition": "There are three modes of free and forced oscillatory deformations which are commonly used experimentally, torsional oscillations , uniaxial extensional oscillations and flexural oscillations. The oscillatory deformations and stresses can be used for solids and liquids. However, the apparatuses employed to measure them are usually designed for solid materials. In principle, they can be modified for use with liquids. Analyses of the results obtained depend on the shape of the specimen, whether or not the distribution of mass in the specimen is accounted for and the assumed model used to represent the linear viscoelastic properties of the material. The following terms relate to analyses which generally assume small deformations, specimens of uniform cross-section, non-distributed mass and a Voigt-Kelvin solid. These are the conventional assumptions.",
+    "source": "section:6"
+  },
+  {
+    "term": "free oscillation",
+    "definition": "Oscillatory deformation of a material specimen with the motion generated without the continuous application of an external force. Note: For any real sample of material the resulting oscillatory deformation is one of decaying amplitude.",
+    "source": "section:6.1"
+  },
+  {
+    "term": "damping curve",
+    "definition": "Decreased deformation of a material specimen vs. time when the specimen is subjected to a free oscillation . Note 1: See Definition 6.1 for the definition of a free oscillation . Note 2: The term 'damping curve' is sometimes used to describe a loss curve . Note 3: A damping curve is usually obtained using a torsion pendulum , involving the measurement of decrease in the axial, torsional displacement of a specimen of uniform cross-section of known shape, with the torsional displacement initiated using a torsion bar of known moment of inertia. Note 4: Damping curves are conventionally analysed in terms of the Voigt-Kelvin solid giving a decaying amplitude and a single frequency. Note 5: Given the properties of a Voigt-Kelvin solid, a damping curve is described by the equation",
+    "source": "section:6.2"
+  },
+  {
+    "term": "decay constant , β , SI unit: s -1",
+    "definition": "Exponential coefficient of the time-dependent decay of a damping curve , assuming VoigtKelvin behaviour. Note 1: See damping curve and the equation therein (Definition 6.2, note 5). Note 2: See Voigt-Kelvin solid. Note 3: For small damping, ), through the equation β is related to the loss modulus ( M ″ <!-- formula-not-decoded --> where ω is the angular velocity corresponding to the decay frequency . H is a parameter that depends on the cross-sectional shape of the specimen and the type of deformation. (For example, for the axial torsion of a circular rod of radius a and length l using a torsion pendulum with a torsion bar of moment of inertia I <!-- formula-not-decoded --> and M ″ ≅ G ″ , the loss modulus in simple shear).",
+    "source": "section:6.3"
+  },
+  {
+    "term": "decay frequency , ν , SI unit: Hz",
+    "definition": "Frequency of a damping curve assuming Voigt-Kelvin behaviour. Note 1: See damping curve and the equation therein. Note 2: See Voigt-Kelvin solid. Note 3: ν = ω /2 π , where ω is the angular velocity corresponding to ν . Note 4: For small damping, the storage modulus ( M ′ ) may be evaluated from ω through the equation <!-- formula-not-decoded --> where H is as defined in Definition 6.3, note 3. Again, for torsion, M ′ ≅ G ′ , the storage modulus in simple shear.",
+    "source": "section:6.4"
+  },
+  {
+    "term": "logarithmic decrement , Λ",
+    "definition": "Natural logarithm of the ratio of the displacement of a damping curve separated by one period of the displacement. Note 1: Voigt-Kelvin behaviour is assumed so that the displacement decays with a single period T , where <!-- formula-not-decoded --> with ν the frequency and ω is the angular velocity corresponding to ν .",
+    "source": "section:6.5"
+  },
+  {
+    "term": "forced uniaxial extensional oscillations",
+    "definition": "Uniaxial extensional deformation of a material specimen of uniform cross-sectional area along its long axis by the continuous application of a sinusoidal force of constant amplitude. Note 1: For a specimen of negligible mass, the linear-viscoelastic interpretation of the resulting deformation gives <!-- formula-not-decoded --> where P (D) and Q (D) are the polynomials in D (=d/d t ) characterizing the linearviscoelastic behaviour , A is the cross-sectional area of the specimen, L its original length, l is here the change in length, f 0 the amplitude of the applied force of angular velocity ω and t the time. Note 2: For a Voigt-Kelvin solid, with P (D)=1 and Q (D)= α + β D, where α is the spring constant and β the dashpot constant, the equation describing the deformation becomes <!-- formula-not-decoded --> or, in terms of stress and strain , <!-- formula-not-decoded --> where ε = l / L is the uniaxial strain and σ 0 = f 0 / A is the amplitude of the stress . The solution of the equation is <!-- formula-not-decoded -->",
+    "source": "section:6.6"
+  },
+  {
+    "term": "forced flexural oscillation",
+    "definition": "Flexural deformation (bending) of a material specimen of uniform cross-sectional area perpendicular to its long axis by the continuous application of a sinusoidal force of constant amplitude. Note 1: There are three modes of flexure in common use. - (i) Application of the flexural force at one end of the specimen with the other end clamped. - (ii) Application of the flexural force at the centre of the specimen with the two ends clamped ( three-point bending or flexure ). - (iii) Application of the flexural force at the centre of the specimen with the two ends resting freely on supports (also known as three-point bending or flexure ).",
+    "source": "section:6.7"
+  },
+  {
+    "term": "flexural force , f 0, SI unit: N",
+    "definition": "Amplitude of the force applied to a material specimen to cause a forced flexural oscillation . Note: A related quantity is the flexural stress which is somewhat arbitrarily defined as the amplitude of the stress in the convex, outer surface of a material specimen in forced flexural oscillation .",
+    "source": "section:6.8"
+  },
+  {
+    "term": "flexural deflection , y , SI unit: m",
+    "definition": "Deflection of a specimen subject to a forced flexural oscillation at the point of application of the flexural force .",
+    "source": "section:6.9"
+  },
+  {
+    "term": "flexural modulus , | E *|, SI unit: Pa",
+    "definition": "Modulus measured using forced flexural oscillations . Note 1: For a Voigt-Kelvin solid of negligible mass, the absolute modulus can be evaluated from the ratio of the flexural force ( f 0) and the amplitude of the flexural deflection ( y ) with <!-- formula-not-decoded --> where Y 0 is the amplitude of the flexural deflection , <!-- formula-not-decoded -->",
+    "source": "section:6.10"
+  },
+  {
+    "term": "resonance curve , A ( ν ), SI unit: that of the amplitude A",
+    "definition": "Curve of the frequency dependence of the amplitude of the displacement of a material specimen subject to forced oscillation s in the region of a resonance frequency . Note: See Definitions 6.6 and 6.7 for the description of modes of forced oscillation commonly used.",
+    "source": "section:6.11"
+  },
+  {
+    "term": "resonance frequency , ν R, SI unit: Hz",
+    "definition": "Frequency at a maximum of a resonance curve . Note 1: Material specimens subject to a forced oscillation in general have a spectrum of resonance frequencies. Note 2: In cases of a single resonance frequency , the resonance frequency is proportional to the square root of the storage modulus ( M ′ ) of the material. Note 3: A material specimen which behaves as a Voigt-Kelvin solid under forced oscillation s with a mass added at the point of application of the applied oscillatory force has a single resonance frequency. Note 4: Under a forced uniaxial extensional oscillation the resonance frequency <!-- formula-not-decoded --> (see Definition 6.6 for the origin of the equation and definitions of symbols). E ′ is the storage modulus in uniaxial extension . Note 5: Under a forced flexural oscillation the resonance frequency <!-- formula-not-decoded --> (see Definition 6.7 for the origin of the equation and the definition of symbols).",
+    "source": "section:6.12"
+  },
+  {
+    "term": "width of the resonance curve , ∆ν , SI unit: Hz",
+    "definition": "Magnitude of the difference in frequency between two points on a resonance curve on either side of ν R which have amplitudes equal to ( ) ( ) R 2 1 ν A .",
+    "source": "section:6.13"
+  }
+]
