@@ -154,6 +154,25 @@ Respond with a JSON array only, e.g. ["aligned1", "aligned2", ...]"""
     return out
 
 
+def _parse_main_value_from_exact(value: str) -> float | None:
+    """
+    Extract main numeric value from string that may contain uncertainty.
+    E.g. '276(±1)' -> 276.0, '105 ± 2' -> 105.0, '276(2)' -> 276.0.
+    Avoids concatenating digits when stripping uncertainty (e.g. 276(±1) -> 2761).
+    """
+    if not value or not isinstance(value, str):
+        return None
+    s = value.strip()
+    # Match leading number (with optional decimal and exponent)
+    m = re.match(r"^([\d.]+(?:[eE][+-]?\d+)?)", s)
+    if m:
+        try:
+            return float(m.group(1))
+        except ValueError:
+            pass
+    return None
+
+
 def validate_value_numeric(value: str | None, value_numeric: float | None, value_type: str) -> tuple[float | None, str | None]:
     """
     Validate value_numeric against value. Returns (corrected_value_numeric, error_msg).
@@ -165,7 +184,9 @@ def validate_value_numeric(value: str | None, value_numeric: float | None, value
     # Parse numeric from value
     try:
         if value_type == "exact":
-            num = float(re.sub(r"[^\d.eE+-]", "", value) or "0")
+            num = _parse_main_value_from_exact(value)
+            if num is None:
+                num = float(re.sub(r"[^\d.eE+-]", "", value) or "0")
             if value_numeric is not None and abs(num - value_numeric) > 0.01:
                 return (num, f"value_numeric {value_numeric} inconsistent with value '{value}'")
             return (num if value_numeric is None else value_numeric, None)
@@ -222,15 +243,15 @@ def convert_to_si(value_numeric: float | None, unit: str | None) -> tuple[float 
 
 
 def extract_uncertainty_from_value(value: str | None) -> float | None:
-    """Extract uncertainty from value string (e.g. '105 ± 2' or '105(2)')."""
+    """Extract uncertainty from value string (e.g. '105 ± 2', '105(2)', '276(±1)')."""
     if not value or not isinstance(value, str):
         return None
-    # ± pattern
+    # ± pattern (handles "105 ± 2" and "276(±1)")
     m = re.search(r"±\s*([\d.]+)", value)
     if m:
         return float(m.group(1))
-    # (2) pattern for uncertainty
-    m = re.search(r"\((\d+)\)\s*$", value.strip())
+    # (2) or (2.5) pattern for uncertainty at end
+    m = re.search(r"\(([\d.]+)\)\s*$", value.strip())
     if m:
         return float(m.group(1))
     return None
