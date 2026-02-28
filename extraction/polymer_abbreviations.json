@@ -74,6 +74,7 @@
     "PVP": "polyvinylpyrrolidone",
     "PBLG": "poly(γ-benzyl-L-glutamate)",
     "GelMA": "gelatin methacrylate",
-    "PETG": "polyethylene terephthalate glycol-modified"
+    "PETG": "polyethylene terephthalate glycol-modified",
+    "APE": "aromatic polyesters",
   }
 }
